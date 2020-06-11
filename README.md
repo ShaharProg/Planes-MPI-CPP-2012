@@ -1,4 +1,11 @@
 # Planes
+How the system works
+
+AGENCY creates the "world" by a configuration file containing all the information about the world. The world includes some air space, aircraft and their flight routes at certain points. AGENCY begins to distribute the work to OPERTIVES equally, each OPERTIVE receives a certain amount of time and all information on the aircraft that is on time. OPERTIVE calculates the amount of concealment on the entire aircraft when you finish the job. In addition to the division of labor between processors each processor divides the work into its various cores through OMP.
+
+CUDA The system to understand OPERTIVE has a war for the GPU for the information and all "heavy" calculations will be performed on the GPU more quickly and directly back to OPERTIVE.
+
+------------------------------
 
 דרך עבודת המערכת
 
